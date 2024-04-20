@@ -93,6 +93,7 @@ dist
 
 # Hugo site generate folder
 public/
+.hugo_build.lock
 
 # Gatsby files
 .cache/
