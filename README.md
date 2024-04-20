@@ -1,2 +1,2 @@
-# chennaijc.github.io
+# Chennai Java [JVM] Community Website
 chennaijc  Website
