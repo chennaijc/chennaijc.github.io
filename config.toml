@@ -33,6 +33,7 @@ favicon = "/fav.png"
 useBootstrapCDN = false
 mathjax = false
 animate = true
+images = ['images/me.png']
 
   [params.font]
   fontSize = "1rem"
