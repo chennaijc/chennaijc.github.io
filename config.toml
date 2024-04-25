@@ -1,6 +1,6 @@
-baseURL = "https://hugo-profile.netlify.app"
+baseURL = "chennaijc.in"
 languageCode = "en-us"
-title = "Chennai JC"
+title = "Chennai Java JVM Community"
 theme = "hugo-profile"
 Paginate = 3
 enableRobotsTXT = true
@@ -27,8 +27,8 @@ unsafe = true
 # weight = 2
 
 [params]
-title = "Chennai JVM Community"
-description = "Chennai Community of Java & JVM Languages"
+title = "Chennai Java [JVM] Community"
+description = "The Chennai Java JVM Community is a group of professionals based in or near Chennai who primarily work with Java but also have a diverse programming mindset, leveraging JVM languages like Groovy, Scala, Clojure, Kotlin, and more. We're passionate about the Java Virtual Machine, pragmatic development, and software craftsmanship. Through monthly meetups, coding dojos, hackathons, and coding challenges, we share our expertise and knowledge."
 favicon = "/fav.png"
 useBootstrapCDN = false
 mathjax = false
@@ -60,7 +60,7 @@ images = ['images/me.png']
 
   [params.hero]
   enable = true
-  intro = "Welcome"
+  intro = "Welcome to"
   title = "Chennai JVM Community"
   subtitle = "Java and JVM Language Community"
   content = """ 
@@ -69,7 +69,7 @@ images = ['images/me.png']
     Passion for JVM Development: Focused on pragmatic development and software craftsmanship.
     Engagement Activities: Monthly meetups, coding dojos, hackathons, and challenges.
   """
-  image = "/images/hero.svg"
+  image = "/images/me.png"
 
     [params.hero.bottomImage]
     enable = true
@@ -92,7 +92,7 @@ url = "https://twitter.com/chennaijc"
 
 [[params.hero.socialLinks.customIcons]]
 icon = "/fav.png"
-url = "https://example.com"
+url = "https://chennaijc.in"
 
   [params.about]
   enable = true
@@ -100,13 +100,12 @@ url = "https://example.com"
   image = "/images/me.png"
   content = """
 The Chennai Java JVM Community is a group of professionals based in or near Chennai who primarily work with Java but also have a diverse programming mindset, leveraging JVM languages like Groovy, Scala, Clojure, Kotlin, and more. We're passionate about the Java Virtual Machine, pragmatic development, and software craftsmanship. Through monthly meetups, coding dojos, hackathons, and coding challenges, we share our expertise and knowledge.
-
 Our community is inclusive, welcoming individuals of all skill levels and backgrounds. We strive to create a supportive environment for learning and collaboration. If you're interested in joining us or learning more about our events, don't hesitate to reach out to us or our members. We're excited to welcome you to our tribe and assist you in any way we can."""
 
     [params.about.skills]
     enable = true
     title = "Here are a few technologies We are into"
-    items = [ "Java", "Groovy", "Scala", "Kotlin", "Clojure", "JRuby", "Cloud", "Web","Jakarta EE", "Design Patterns" ]
+    items = [ "Java", "Groovy", "Scala", "Kotlin", "Clojure", "JRuby", "Cloud", "Web","Jakarta EE", "Design Patterns","and more..." ]
 
   [params.experience]
   enable = false
